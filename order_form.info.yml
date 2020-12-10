@@ -1,0 +1,6 @@
+name: Makeistukku Order Form
+description: Create an order form as block.
+package: Custom
+
+type: module
+core: 8.x

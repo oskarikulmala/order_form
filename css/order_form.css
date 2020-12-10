@@ -1,0 +1,4 @@
+#makeistukku-order-form .form-item-monthly,
+#makeistukku-order-form .form-item-total {
+  display: none;
+}

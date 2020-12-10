@@ -1,0 +1,11 @@
+order_form_styles:
+  version: 1.x
+  css:
+    theme:
+      css/order_form.css: {}
+add_total:
+  version: 1.x
+  js:
+    js/add_total.js: {}
+  dependencies:
+    - core/jquery

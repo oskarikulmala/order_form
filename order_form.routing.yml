@@ -1,0 +1,14 @@
+order_form.multistep_one:
+  path: '/tilauslomake'
+  defaults:
+    _form: '\Drupal\order_form\Form\MultistepOneForm'
+    _title: 'Tilauslomake'
+  requirements:
+    _permission: 'access content' # Make permissions better.
+order_form.multistep_two:
+  path: '/tilauslomake/vahvista'
+  defaults:
+    _form: '\Drupal\order_form\Form\MultistepTwoForm'
+    _title: 'Second form'
+  requirements:
+    _permission: 'access content' # Make permissions better.

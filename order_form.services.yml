@@ -1,0 +1,4 @@
+services:
+  order_form.product_query:
+    class: Drupal\order_form\Controller\ProductQueryController
+    arguments: ['@entity.query', '@entity.manager']
